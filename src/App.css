@@ -47,7 +47,7 @@ a:hover {
   background-color: #001529;
   display: flex;
   padding: 20px;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
 }
 .logo {
@@ -60,6 +60,7 @@ a:hover {
   display: none !important;
   position: absolute !important;
   right: 10px !important;
+  padding: 1px 15px !important;
   top: 25px !important;
   font-size: 1.2rem !important;
   background-color: var(--bgSecondary) !important;
