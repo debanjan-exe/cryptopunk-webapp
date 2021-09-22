@@ -10,18 +10,6 @@ const baseUrl = 'https://bing-news-search1.p.rapidapi.com';
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders })
 
-// var options = {
-//     method: 'GET',
-//     url: 'https://bing-news-search1.p.rapidapi.com/news/trendingtopics',
-//     params: {safeSearch: 'Off', textFormat: 'Raw'},
-//     headers: {
-//       'x-bingapis-sdk': 'true',
-//       'x-rapidapi-host': 'bing-news-search1.p.rapidapi.com',
-//       'x-rapidapi-key': 'd79e53d9bfmshc01088940905795p146194jsn34f85ffacba4'
-//     }
-//   };
-
-
 export const cryptoNewsApi = createApi({
     reducerPath: "cryptoNewsApi",
     baseQuery: fetchBaseQuery({ baseUrl }),
