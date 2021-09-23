@@ -37,14 +37,16 @@ const News = ({ simplified }) => {
           >
             <Option value="Cryptocurrency">Cryptocurrency</Option>
             {data?.data?.coins.map((coin) => (
-              <Option value={coin.name}>{coin.name}</Option>
+              <Option key={coin.name} value={coin.name}>
+                {coin.name}
+              </Option>
             ))}
           </Select>
         </Col>
       )}
       {cryptoNews.value.map((news, i) => (
         <Col xs={24} sm={12} lg={8} key={i}>
-          <Card hoverable className="news-card">
+          <Card hoverable className="news-card" key={i}>
             <a href={news.url} target="_blank" rel="noreferrer">
               <div className="news-image-container">
                 <Title className="news-title" level={4}>

@@ -130,7 +130,7 @@ const CryptoDetails = () => {
             <p>An overview showing the statistics of {cryptoDetails.name}</p>
           </Col>
           {stats.map(({ icon, title, value }) => (
-            <Col className="coin-stats">
+            <Col key={title} className="coin-stats">
               <Col className="coin-stats-name">
                 <Text>{icon}</Text>
                 <Text>{title}</Text>
@@ -147,7 +147,7 @@ const CryptoDetails = () => {
             <p>An overview showing the statistics of all cryptos</p>
           </Col>
           {genericStats.map(({ icon, title, value }) => (
-            <Col className="coin-stats">
+            <Col className="coin-stats" key={title}>
               <Col className="coin-stats-name">
                 <Text>{icon}</Text>
                 <Text>{title}</Text>
@@ -160,8 +160,10 @@ const CryptoDetails = () => {
       <Col className="coin-desc-link">
         <Row className="coin-desc">
           <Title level={3} className="coin-details-heading">
-            What is {cryptoDetails.name} ?
-            {HTMLReactParser(cryptoDetails.description)}
+            <div>
+              What is {cryptoDetails.name} ?
+              {HTMLReactParser(cryptoDetails.description)}
+            </div>
           </Title>
         </Row>
         <Col className="coin-links">
@@ -169,7 +171,7 @@ const CryptoDetails = () => {
             {cryptoDetails.name} Links
           </Title>
           {cryptoDetails.links.map((link) => (
-            <Row className="coin-link" key={link.name}>
+            <Row className="coin-link" key={link.url}>
               <Title level={5} className="link-name">
                 {link.type}
               </Title>
