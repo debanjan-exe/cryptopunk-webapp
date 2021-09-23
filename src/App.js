@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css"
 // import routing
-import { Switch, Route, Link } from "react-router-dom"
+import { Switch, Route } from "react-router-dom"
 // import UI elements
 import { Layout, Typography, Space } from 'antd';
 // import components
@@ -37,13 +37,13 @@ function App() {
         </Layout>
         <div className="footer">
           <Typography.Title level={5} style={{ color: "white", textAlign: "center" }}>
-            © CryptoPunk <br />
-            All Rights Reserved
+            ©CryptoPunk All Rights Reserved<br />
+            Get In Touch :
           </Typography.Title>
           <Space>
-            <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
-            <Link to="/news">News</Link>
+            <a id="footer-links" target="_blank" rel="noreferrer" href="https://github.com/debanjan-exe">GitHub</a>
+            <a id="footer-links" target="_blank" rel="noreferrer" href="https://twitter.com/deba_exe">Twitter</a>
+            <a id="footer-links" target="_blank" rel="noreferrer" href="https://linkedin.com/in/debanjan-acharyya">Linkedin</a>
           </Space>
         </div>
       </div>

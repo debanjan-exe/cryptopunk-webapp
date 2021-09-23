@@ -389,3 +389,11 @@ a:hover {
 #menu-item-a:hover {
   color: #fff !important;
 }
+
+#footer-links {
+  color: aqua;
+}
+
+#footer-links:hover {
+  color: #fff !important;
+}
