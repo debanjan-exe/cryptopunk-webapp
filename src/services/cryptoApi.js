@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const cryptoApiHeaders = {
     'x-rapidapi-host': 'coinranking1.p.rapidapi.com',
-    'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY
+    'x-rapidapi-key': 'd79e53d9bfmshc01088940905795p146194jsn34f85ffacba4'
 }
 
 const baseUrl = 'https://coinranking1.p.rapidapi.com';
