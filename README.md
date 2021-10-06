@@ -1,3 +1,18 @@
+# CryptoPunk
+![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144511.png?raw=true)
+---
+# All Details about the cryptocurrency
+![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144626.png?raw=true)
+---
+# With some information and Links
+![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144820.png?raw=true)
+---
+# Also get the latest news
+![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144727.png?raw=true)
+---
+# Exchanges
+![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144700.png?raw=true)
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
