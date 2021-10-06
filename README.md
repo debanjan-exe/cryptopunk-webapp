@@ -1,10 +1,10 @@
 # CryptoPunk
 ![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144511.png?raw=true)
 ---
-# All Details about the cryptocurrency
+# All Details about the cryptocurrency with price chart
 ![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144626.png?raw=true)
 ---
-# With some information and Links
+# With some stats and Links
 ![alt text](https://github.com/debanjan-exe/cryptopunk-webapp/blob/master/mockups/Screenshot%202021-10-06%20144820.png?raw=true)
 ---
 # Also get the latest news
